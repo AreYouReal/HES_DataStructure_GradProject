@@ -5,12 +5,15 @@
 This file include a brief description of the additional classes which was used in project.
 
 ==============================Node==============================
+
 This class includes character and frequency(how many times this character occures in the given text).
 There are several link.
+
 "next" and "prev' link - for creating a LinkedList from which creating the Huffman Trees.
 "left" and "right" - for creating Huffman binary Tree.
-================================================================
+
 =====================GradProjectDataStruct======================
+
 This class consist of variables and methods for building and working with binaty Huffman tree;
 
 It inludes:
@@ -30,6 +33,7 @@ It inludes:
 	The "getCode" method which returns Code object according to the given character. Time complexity is: O(1); In case array random access;
 
 	The "getNode" method which go through tree and return left or right child depends on bit parameter. Time complexity: O(1);
+	
 =================================================================
 
 In main method of Huff.java we first read the file and create the header array which consist of character frequency. (index of array - character; value - frequency);
